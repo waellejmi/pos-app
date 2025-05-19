@@ -1,0 +1,26 @@
+#Maybe for the future 
+-USER-ROLE
+check adocasts on role auth
+Everyone has an account in a Users table.
+We make groups and put them into a Groups table. There's no permissions there, pretty much just a name and ID.
+Each user is assigned 1 or more groups in a User_Group table. This is just the ID of their User model and the ID of the Group model.
+We have a list of permissions in Permissions
+Each group has a list of what permissions are Allowed or Denied in a Group_Permission table.
+Users have one or more Groups and each group has one or more Permissions assigned to it.
+
+-Remember me Function with refreshtokens for example make accesstokens 5mins then after every 5mins you hit /refresh to get the new the refreshtoken
+ALSO CHECK Youtube JWt tokens and check for more refreshtokens
+
+-Optimaistation: state managamnet provider learn it ( sepreate UI and logic )
+
+#ORDERS 
+run migraitions
+
+    - transactions (add quantity to products or remove)
+    -dashboard
+    -stock ki ywali minus 0 
+   -analytics profits and  transactions
+
+
+  
+hama@tyson.com

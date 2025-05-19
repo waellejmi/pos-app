@@ -1,0 +1,12 @@
+{
+  "extends": "@adonisjs/tsconfig/tsconfig.app.json",
+  "compilerOptions": {
+    "rootDir": "./",
+    "outDir": "./build",
+    "paths": {
+      "#enums/*": ["./app/enums/*.ts"],
+      "#factories/*":["./app/database/factories/*.js"],
+      "#seeders/*":["./app/database/seeders/*.js"],
+    }
+  }
+}
